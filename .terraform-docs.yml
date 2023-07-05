@@ -8,9 +8,10 @@ content: |-
 
   # Usage - Module
 
-  ## Network Watcher Flow Log
+  ## Recovery Services Vault.
+
   ```hcl
-  {{ include "examples/network-watcher-flow-log-example/main.tf" }}
+  {{ include "examples/recovery-services-vault-example/main.tf" }}
   ```
 
   {{ .Providers }}
