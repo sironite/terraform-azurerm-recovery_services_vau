@@ -29,7 +29,7 @@ module "recovery_services_vault" {
 
 | Name | Version |
 |------|---------|
-| azurerm | n/a |
+| azurerm | >= 2.0.0 |
 
 ## Modules
 
@@ -54,7 +54,8 @@ No modules.
 | public\_network\_access\_enabled | Enable public network access for the Recovery Services Vault. | `bool` | no |
 | sku | The SKU of the Recovery Services Vault to create. | `string` | no |
 | soft\_delete\_enabled | Enable soft delete for the Recovery Services Vault. | `bool` | no |
-| storage\_model\_type | The storage model type of the Recovery Services Vault. | `string` | no |
+| storage\_mode\_type | The storage model type of the Recovery Services Vault. | `string` | no |
+| tags | A mapping of tags to assign to the resource. | `map(string)` | no |
 
 ## Outputs
 
