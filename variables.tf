@@ -31,7 +31,7 @@ variable "immunization_enabled" {
   default     = "Locked"
 }
 
-variable "storage_model_type" {
+variable "storage_mode_type" {
   description = "The storage model type of the Recovery Services Vault."
   type        = string
   default     = "GeoRedundant"
