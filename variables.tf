@@ -25,7 +25,7 @@ variable "public_network_access_enabled" {
   default     = true
 }
 
-variable "immunization_enabled" {
+variable "immutability" {
   description = "Enable immunization for the Recovery Services Vault."
   type        = string
   default     = "Locked"
