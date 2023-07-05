@@ -50,7 +50,7 @@ No modules.
 | vault\_name | The name of the Recovery Services Vault which should be created. | `string` | yes |
 | cross\_region\_restore\_enabled | Enable cross region restore for the Recovery Services Vault. | `bool` | no |
 | identity\_type | The type of identity which should be assigned to the Recovery Services Vault. | `string` | no |
-| immunization\_enabled | Enable immunization for the Recovery Services Vault. | `string` | no |
+| immutability | Enable immunization for the Recovery Services Vault. | `string` | no |
 | public\_network\_access\_enabled | Enable public network access for the Recovery Services Vault. | `bool` | no |
 | sku | The SKU of the Recovery Services Vault to create. | `string` | no |
 | soft\_delete\_enabled | Enable soft delete for the Recovery Services Vault. | `bool` | no |
