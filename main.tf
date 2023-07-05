@@ -13,4 +13,5 @@ resource "azurerm_recovery_services_vault" "this" {
     type = var.identity_type
   }
 
+  tags = var.tags
 }
