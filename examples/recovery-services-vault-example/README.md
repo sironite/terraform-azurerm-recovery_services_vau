@@ -1,6 +1,6 @@
-# Terraform module | AzureRM - Invullen
+# Terraform module | AzureRM - Recovery Services Vault
 
-This Terraform module is designed to create a Invullen for Azure.
+This Terraform module is designed to create a Recovery Services Vault. for Azure.
 
 ## Pre-requisites
 
@@ -9,7 +9,7 @@ Using the modules requires the following pre-requisites:
 
 ## Usage
 
-`Invullen`
+`Recovery Services Vault`
 
 ```hcl
 
