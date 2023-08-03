@@ -4,7 +4,7 @@ resource "azurerm_recovery_services_vault" "this" {
   location                      = var.location
   sku                           = var.sku
   public_network_access_enabled = var.public_network_access_enabled
-  immutability          = var.immutability
+  immutability                  = var.immutability
   storage_mode_type             = var.storage_mode_type
   soft_delete_enabled           = var.soft_delete_enabled
   cross_region_restore_enabled  = var.cross_region_restore_enabled

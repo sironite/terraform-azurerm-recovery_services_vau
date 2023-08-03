@@ -28,7 +28,7 @@ variable "public_network_access_enabled" {
 variable "immutability" {
   description = "Enable immunization for the Recovery Services Vault."
   type        = string
-  default     = "Locked"
+  default     = "Disabled"
 }
 
 variable "storage_mode_type" {
@@ -46,7 +46,7 @@ variable "soft_delete_enabled" {
 variable "cross_region_restore_enabled" {
   description = "Enable cross region restore for the Recovery Services Vault."
   type        = bool
-  default     = true
+  default     = false
 }
 
 variable "identity_type" {
